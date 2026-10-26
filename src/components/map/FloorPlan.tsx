@@ -258,7 +258,7 @@ export function FloorPlan({ data, selectedStand, selectedHall, selectedFacilitie
               <g key={f.id} role="button" tabIndex={0} aria-label={`${loc(f.name, lang)}: ${loc(f.location, lang)}`} onClick={tap(() => onSelectFacility(f.id))} onKeyDown={key(() => onSelectFacility(f.id))} className="cursor-pointer">
                 <title>{loc(f.name, lang)}</title>
                 {on && <circle cx={p.cx} cy={p.cy} r={22} fill="rgb(var(--brand-primary) / 0.25)" className="animate-pulse" />}
-                <circle cx={p.cx} cy={p.cy} r={14} fill={on ? 'rgb(var(--brand-primary))' : '#1a1c4f'} stroke={on ? 'white' : 'rgba(255,255,255,0.35)'} strokeWidth={1.5} />
+                <circle cx={p.cx} cy={p.cy} r={14} fill={on ? 'rgb(var(--brand-primary))' : '#27272a'} stroke={on ? 'white' : 'rgba(255,255,255,0.35)'} strokeWidth={1.5} />
                 <Icon name={FACILITY_ICON[f.type]} x={p.cx - 8} y={p.cy - 8} size={16} strokeWidth={2} className={on ? 'text-midnight-950' : 'text-slate-100'} />
               </g>
             );

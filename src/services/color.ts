@@ -44,7 +44,7 @@ export function luminance(hex: string): number {
 }
 
 export function readableOn(hex: string): string {
-  return luminance(hex) > 0.45 ? '#0a0b26' : '#ffffff';
+  return luminance(hex) > 0.45 ? '#09090b' : '#ffffff';
 }
 
 /** CSS custom properties that re-theme the UI for an event. */

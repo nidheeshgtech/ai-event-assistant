@@ -7,9 +7,9 @@ import { Badge } from '@/components/ui/Misc';
 import { readQuestions } from '@/services/questionLog';
 import { sampleAnalytics } from '@/services/sampleAnalytics';
 
-const C = { primary: 'rgb(var(--brand-primary))', accent: 'rgb(var(--brand-accent))', grid: 'rgba(255,255,255,0.06)', axis: '#8b8fb8' };
+const C = { primary: 'rgb(var(--brand-primary))', accent: 'rgb(var(--brand-accent))', grid: 'rgba(255,255,255,0.06)', axis: '#8a8a93' };
 const tooltip = {
-  contentStyle: { background: 'rgba(12,12,40,0.95)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 12, color: '#fff', fontSize: 12 },
+  contentStyle: { background: 'rgba(17,17,19,0.95)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 12, color: '#fff', fontSize: 12 },
   labelStyle: { color: '#cbd5e1' },
   cursor: { fill: 'rgba(255,255,255,0.04)' },
 };

@@ -12,7 +12,7 @@ interface Props {
 const toneClass = {
   gold: 'bg-gold-400/15 text-gold-300',
   blue: 'bg-electric-400/15 text-electric-300',
-  purple: 'bg-plum-500/20 text-violet-200',
+  purple: 'bg-white/10 text-zinc-200',
   green: 'bg-emerald-400/15 text-emerald-300',
   rose: 'bg-rose-400/15 text-rose-300',
 };

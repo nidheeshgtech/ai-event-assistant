@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        midnight: { 950: '#05061a', 900: '#0a0b26', 800: '#11133a', 700: '#1a1c4f' },
+        midnight: { 950: '#09090b', 900: '#111113', 800: '#1a1a1d', 700: '#26262a' },
         plum: { 900: '#1c0f3d', 800: '#2a1659', 700: '#3b1f7a', 500: '#7c4dff' },
         gold: { 300: '#ffe7a3', 400: '#f9d36b', 500: '#e8b84a', 600: '#c99a2e' },
         electric: { 300: '#8fd8ff', 400: '#4cc3ff', 500: '#1ea7ff', 600: '#0b84d9' },
@@ -26,7 +26,7 @@ export default {
       },
       backgroundImage: {
         'night-sky':
-          'radial-gradient(ellipse at 20% 0%, rgba(124,77,255,0.28), transparent 55%), radial-gradient(ellipse at 85% 20%, rgba(30,167,255,0.18), transparent 50%), linear-gradient(180deg, #05061a 0%, #0f0a2e 55%, #1c0f3d 100%)',
+          'radial-gradient(ellipse at 15% -10%, rgba(255,255,255,0.07), transparent 50%), radial-gradient(ellipse at 90% 10%, rgb(var(--brand-primary) / 0.07), transparent 45%), linear-gradient(180deg, #09090b 0%, #111113 55%, #0c0c0e 100%)',
       },
       keyframes: {
         shimmer: { '0%': { backgroundPosition: '-200% 0' }, '100%': { backgroundPosition: '200% 0' } },

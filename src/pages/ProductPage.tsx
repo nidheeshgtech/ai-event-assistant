@@ -131,7 +131,7 @@ export default function ProductPage() {
       <main>
         {/* Hero */}
         <section className="relative overflow-hidden pb-20 pt-10 sm:pt-16 lg:pb-28">
-          <div className="pointer-events-none absolute left-1/2 top-0 h-[480px] w-[900px] max-w-[100vw] -translate-x-1/2 rounded-full bg-plum-500/20 blur-[120px]" aria-hidden="true" />
+          <div className="pointer-events-none absolute left-1/2 top-0 h-[480px] w-[900px] max-w-[100vw] -translate-x-1/2 rounded-full bg-brand-primary/10 blur-[120px]" aria-hidden="true" />
           <div className="section relative grid items-center gap-14 lg:grid-cols-[1.1fr_1fr]">
             <div className="text-center lg:text-start">
               <span data-hero="badge" className="glass inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium text-slate-200">

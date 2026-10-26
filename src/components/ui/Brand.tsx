@@ -15,7 +15,7 @@ export function Logo({ className = '', to = '/solutions/ai-event-assistant' }: {
             <stop offset="1" stopColor="#4cc3ff" />
           </linearGradient>
         </defs>
-        <rect width="64" height="64" rx="18" fill="#11133a" stroke="rgba(255,255,255,.12)" />
+        <rect width="64" height="64" rx="18" fill="#18181b" stroke="rgba(255,255,255,.12)" />
         <path d="M32 10l5.5 14.5L52 30l-14.5 5.5L32 50l-5.5-14.5L12 30l14.5-5.5z" fill={`url(#${gid})`} />
       </svg>
       <span className="font-display text-lg font-bold tracking-tight text-white" dir="ltr">

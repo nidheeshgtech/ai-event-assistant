@@ -3,10 +3,10 @@ const svg = (body: string) => `data:image/svg+xml;utf8,${encodeURIComponent(`<sv
 
 export const LOGOS = {
   tech: svg(
-    `<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>` +
+    `<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient></defs>` +
       `<rect width="64" height="64" rx="16" fill="#0b1030"/><circle cx="32" cy="32" r="17" fill="none" stroke="url(#g)" stroke-width="3"/>` +
       `<path d="M32 15v34M15 32h34" stroke="url(#g)" stroke-width="2" opacity=".55"/><circle cx="32" cy="32" r="6" fill="url(#g)"/>` +
-      `<circle cx="44" cy="20" r="3" fill="#a78bfa"/><circle cx="20" cy="44" r="3" fill="#38bdf8"/>`,
+      `<circle cx="44" cy="20" r="3" fill="#2dd4bf"/><circle cx="20" cy="44" r="3" fill="#38bdf8"/>`,
   ),
   corporate: svg(
     `<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe7a3"/><stop offset="1" stop-color="#c99a2e"/></linearGradient></defs>` +

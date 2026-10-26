@@ -37,7 +37,7 @@ export const PRESETS: BrandPreset[] = [
       ),
       logo: LOGOS.tech,
       primary: '#38bdf8',
-      accent: '#a78bfa',
+      accent: '#2dd4bf',
       languages: ['en', 'ar'],
       defaultLang: 'en',
       widgetPosition: 'bottom-right',

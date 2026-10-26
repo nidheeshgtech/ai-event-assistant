@@ -16,7 +16,7 @@ const tones: Record<Tone, string> = {
   green: 'bg-emerald-400/15 text-emerald-300 ring-emerald-400/30',
   rose: 'bg-rose-400/15 text-rose-300 ring-rose-400/30',
   slate: 'bg-white/10 text-slate-300 ring-white/15',
-  purple: 'bg-plum-500/20 text-violet-200 ring-plum-500/40',
+  purple: 'bg-white/10 text-zinc-200 ring-white/20',
 };
 
 export function Badge({ tone = 'slate', children, className = '' }: { tone?: Tone; children: ReactNode; className?: string }) {
