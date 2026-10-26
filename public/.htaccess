@@ -1,0 +1,8 @@
+# SPA fallback for the MAMP build (npm run build:mamp)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /events-2026/ai-event-assistant/dist/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /events-2026/ai-event-assistant/dist/index.html [L]
+</IfModule>
